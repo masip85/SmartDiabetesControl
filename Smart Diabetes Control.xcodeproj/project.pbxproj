@@ -1,0 +1,1019 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83017602177AE6EB00C2684B /* SDCGlucoseScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 83017601177AE6EB00C2684B /* SDCGlucoseScroll.m */; };
+		8308E39E1741101400E2CBF8 /* SDCInsulinMeasure.m in Sources */ = {isa = PBXBuildFile; fileRef = 8308E39B1741101300E2CBF8 /* SDCInsulinMeasure.m */; };
+		8308E39F1741101400E2CBF8 /* SDCSportMeasure.m in Sources */ = {isa = PBXBuildFile; fileRef = 8308E39D1741101400E2CBF8 /* SDCSportMeasure.m */; };
+		8312F273174D021500711900 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8312F26E174D021500711900 /* CollectionViewController.m */; };
+		8312F274174D021500711900 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8312F270174D021500711900 /* CustomCell.m */; };
+		8312F275174D021500711900 /* LineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8312F272174D021500711900 /* LineLayout.m */; };
+		83362DBB177994E8004212D9 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 83362DBA177994E8004212D9 /* calendar.png */; };
+		833CC33517301C8E00679CF3 /* SDCLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 833CC33417301C8E00679CF3 /* SDCLoginVC.m */; };
+		833CC33A173029A400679CF3 /* SDCLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 833CC339173029A400679CF3 /* SDCLoginVC.xib */; };
+		834CC4FB173D417E0032DF89 /* SDCGlucoseMeasure.m in Sources */ = {isa = PBXBuildFile; fileRef = 834CC4FA173D417E0032DF89 /* SDCGlucoseMeasure.m */; };
+		834CC4FE173D4BA60032DF89 /* SDCMeasureStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 834CC4FD173D4BA60032DF89 /* SDCMeasureStore.m */; };
+		834D64A6173949870094BE43 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 834D64A5173949870094BE43 /* Default-568h@2x.png */; };
+		835677E5178D531A0039E6D1 /* SDCEventsVC_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835677E4178D531A0039E6D1 /* SDCEventsVC_iPhone5.xib */; };
+		835677E9178D533C0039E6D1 /* SDCGlucoseRegisterVC_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835677E6178D533C0039E6D1 /* SDCGlucoseRegisterVC_iPhone5.xib */; };
+		835677EA178D533C0039E6D1 /* SDCDetailViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835677E7178D533C0039E6D1 /* SDCDetailViewController_iPhone5.xib */; };
+		835677EB178D533C0039E6D1 /* SDCRegisterDatesVC3_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835677E8178D533C0039E6D1 /* SDCRegisterDatesVC3_iPhone5.xib */; };
+		835677ED178D53660039E6D1 /* SDCSetMealVC_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835677EC178D53660039E6D1 /* SDCSetMealVC_iPhone5.xib */; };
+		835677F0178D54790039E6D1 /* MealDetailVC_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835677EE178D54790039E6D1 /* MealDetailVC_iPhone5.xib */; };
+		835677F1178D54790039E6D1 /* SDCMealExtraDetailsVC_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835677EF178D54790039E6D1 /* SDCMealExtraDetailsVC_iPhone5.xib */; };
+		835677F3178D54F00039E6D1 /* SDCSetInsulinVC_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835677F2178D54F00039E6D1 /* SDCSetInsulinVC_iPhone5.xib */; };
+		835677F6178D55100039E6D1 /* SDCSetSportVC_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835677F4178D55100039E6D1 /* SDCSetSportVC_iPhone5.xib */; };
+		835677F7178D55100039E6D1 /* SDCSportDatesVC_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835677F5178D55100039E6D1 /* SDCSportDatesVC_iPhone5.xib */; };
+		835677F9178D55500039E6D1 /* SportDetailVC_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835677F8178D55500039E6D1 /* SportDetailVC_iPhone5.xib */; };
+		835677FB178D55730039E6D1 /* SDCSetGlucoseVC_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835677FA178D55730039E6D1 /* SDCSetGlucoseVC_iPhone5.xib */; };
+		835677FD178D55A10039E6D1 /* SDCLoginVC_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835677FC178D55A10039E6D1 /* SDCLoginVC_iPhone5.xib */; };
+		835677FF178D55BB0039E6D1 /* SDCSettingsVC_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835677FE178D55BB0039E6D1 /* SDCSettingsVC_iPhone5.xib */; };
+		835DF96017745A1300008B0C /* SDCRegisterDatesVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 835DF95E17745A1300008B0C /* SDCRegisterDatesVC3.m */; };
+		835DF96117745A1300008B0C /* SDCRegisterDatesVC3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835DF95F17745A1300008B0C /* SDCRegisterDatesVC3.xib */; };
+		83A47FF7173266D400BBE945 /* SDCSetInformationMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A47FF5173266D400BBE945 /* SDCSetInformationMenuVC.m */; };
+		83A47FF8173266D400BBE945 /* SDCSetInformationMenuVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A47FF6173266D400BBE945 /* SDCSetInformationMenuVC.xib */; };
+		83A47FFE173267BA00BBE945 /* SDCSetGlucoseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A47FFC173267BA00BBE945 /* SDCSetGlucoseVC.m */; };
+		83A47FFF173267BA00BBE945 /* SDCSetGlucoseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A47FFD173267BA00BBE945 /* SDCSetGlucoseVC.xib */; };
+		83A48004173267F500BBE945 /* SDCSetSportVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A48002173267F500BBE945 /* SDCSetSportVC.m */; };
+		83A48005173267F500BBE945 /* SDCSetInsulinVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A48003173267F500BBE945 /* SDCSetInsulinVC.xib */; };
+		83A4800A1732683400BBE945 /* SDCSetInsulinVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A480081732683400BBE945 /* SDCSetInsulinVC.m */; };
+		83A4800B1732683400BBE945 /* SDCSetSportVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A480091732683400BBE945 /* SDCSetSportVC.xib */; };
+		83A480161732698300BBE945 /* SDCSettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A480141732698300BBE945 /* SDCSettingsVC.m */; };
+		83A480171732698300BBE945 /* SDCSettingsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A480151732698300BBE945 /* SDCSettingsVC.xib */; };
+		83A4801C173269BA00BBE945 /* SDCSocialDiabetesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A4801A173269BA00BBE945 /* SDCSocialDiabetesVC.m */; };
+		83A4801D173269BA00BBE945 /* SDCSocialDiabetesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A4801B173269BA00BBE945 /* SDCSocialDiabetesVC.xib */; };
+		83A48022173269F600BBE945 /* SDCMyProblemsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A48020173269F600BBE945 /* SDCMyProblemsVC.m */; };
+		83A48023173269F600BBE945 /* SDCMyProblemsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A48021173269F600BBE945 /* SDCMyProblemsVC.xib */; };
+		83C4DE80172A93F300B3899E /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C4DE7E172A93CA00B3899E /* Accounts.framework */; };
+		83C4DE84172A93F300B3899E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C4DE81172A93F300B3899E /* AdSupport.framework */; };
+		83C4DE85172A93F300B3899E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C4DE82172A93F300B3899E /* Security.framework */; };
+		83C4DE86172A93F300B3899E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C4DE83172A93F300B3899E /* Social.framework */; };
+		83C4DE88172A948400B3899E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C4DE87172A948400B3899E /* libsqlite3.dylib */; };
+		83CEB787176B0FE400774DBF /* SDCEllipse.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CEB786176B0FE400774DBF /* SDCEllipse.m */; };
+		83CEB789176B411D00774DBF /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CEB788176B411D00774DBF /* Accelerate.framework */; };
+		83D677651743BBCE001ED18A /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D677511743BBCE001ED18A /* HeaderView.xib */; };
+		83D677661743BBCE001ED18A /* SDCSportImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D677531743BBCE001ED18A /* SDCSportImageVC.m */; };
+		83D677671743BBCE001ED18A /* SDCSportImageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D677541743BBCE001ED18A /* SDCSportImageVC.xib */; };
+		83D677681743BBCE001ED18A /* SportCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D677561743BBCE001ED18A /* SportCell.m */; };
+		83D677691743BBCE001ED18A /* SportCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D677571743BBCE001ED18A /* SportCell.xib */; };
+		83D6776A1743BBCE001ED18A /* SportDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D677591743BBCE001ED18A /* SportDetailVC.m */; };
+		83D6776B1743BBCE001ED18A /* SportDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D6775A1743BBCE001ED18A /* SportDetailVC.xib */; };
+		83D6776C1743BBCE001ED18A /* SportsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D6775C1743BBCE001ED18A /* SportsVC.m */; };
+		83D6776D1743BBCE001ED18A /* SDCImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D6775E1743BBCE001ED18A /* SDCImageStore.m */; };
+		83D6776E1743BBCE001ED18A /* SDCSport.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D677601743BBCE001ED18A /* SDCSport.m */; };
+		83D6776F1743BBCE001ED18A /* SDCSportStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D677621743BBCE001ED18A /* SDCSportStore.m */; };
+		83D7DC19175740D500925678 /* MealCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D7DC06175740D500925678 /* MealCell.m */; };
+		83D7DC1A175740D500925678 /* MealCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D7DC07175740D500925678 /* MealCell.xib */; };
+		83D7DC1B175740D500925678 /* MealDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D7DC09175740D500925678 /* MealDetailVC.m */; };
+		83D7DC1C175740D500925678 /* MealDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D7DC0A175740D500925678 /* MealDetailVC.xib */; };
+		83D7DC1D175740D500925678 /* MealsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D7DC0C175740D500925678 /* MealsVC.m */; };
+		83D7DC1E175740D500925678 /* SDCMeal.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D7DC0E175740D500925678 /* SDCMeal.m */; };
+		83D7DC1F175740D500925678 /* SDCMealExtraDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D7DC10175740D500925678 /* SDCMealExtraDetailsVC.m */; };
+		83D7DC20175740D500925678 /* SDCMealExtraDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D7DC11175740D500925678 /* SDCMealExtraDetailsVC.xib */; };
+		83D7DC21175740D500925678 /* SDCMealMeasure.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D7DC13175740D500925678 /* SDCMealMeasure.m */; };
+		83D7DC22175740D500925678 /* SDCMealStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D7DC15175740D500925678 /* SDCMealStore.m */; };
+		83D7DC23175740D500925678 /* SDCSetMealVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D7DC17175740D500925678 /* SDCSetMealVC.m */; };
+		83D7DC24175740D500925678 /* SDCSetMealVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D7DC18175740D500925678 /* SDCSetMealVC.xib */; };
+		83D7DC2B1757417100925678 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D7DC271757417100925678 /* HeaderView.xib */; };
+		83D7DC2C1757417100925678 /* SDCMealImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D7DC291757417100925678 /* SDCMealImageVC.m */; };
+		83D7DC2D1757417100925678 /* SDCMealImageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D7DC2A1757417100925678 /* SDCMealImageVC.xib */; };
+		83DA8F051785BA5000F632CD /* SDCEventsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DA8F031785BA5000F632CD /* SDCEventsVC.m */; };
+		83DA8F061785BA5000F632CD /* SDCEventsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83DA8F041785BA5000F632CD /* SDCEventsVC.xib */; };
+		83E5C79517842DA900340882 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E5C79417842DA900340882 /* FacebookSDK.framework */; };
+		83E5C79717842DB300340882 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 83E5C79617842DB300340882 /* FacebookSDKResources.bundle */; };
+		83EBAB7D17561598004093A9 /* SDCSportDatesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EBAB7B17561598004093A9 /* SDCSportDatesVC.m */; };
+		83EBAB7E17561598004093A9 /* SDCSportDatesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83EBAB7C17561598004093A9 /* SDCSportDatesVC.xib */; };
+		83F73FAD1782FA3400C44FEA /* CLLocation+measuring.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F73F8B1782FA3400C44FEA /* CLLocation+measuring.m */; };
+		83F73FAE1782FA3400C44FEA /* CLLocation+routeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F73F8D1782FA3400C44FEA /* CLLocation+routeInfo.m */; };
+		83F73FAF1782FA3400C44FEA /* CLLocationDeadReckoning.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F73F8F1782FA3400C44FEA /* CLLocationDeadReckoning.m */; };
+		83F73FB01782FA3400C44FEA /* CLLocationDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F73F911782FA3400C44FEA /* CLLocationDispatch.m */; };
+		83F73FB11782FA3400C44FEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83F73F941782FA3400C44FEA /* InfoPlist.strings */; };
+		83F73FB21782FA3400C44FEA /* MCLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83F73F961782FA3400C44FEA /* MCLViewController.xib */; };
+		83F73FB51782FA3400C44FEA /* MCLPOI.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F73F9C1782FA3400C44FEA /* MCLPOI.m */; };
+		83F73FB61782FA3400C44FEA /* MCLPOIStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F73F9E1782FA3400C44FEA /* MCLPOIStore.m */; };
+		83F73FB71782FA3400C44FEA /* MCLTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F73FA01782FA3400C44FEA /* MCLTrack.m */; };
+		83F73FB81782FA3400C44FEA /* MCLTrackStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F73FA21782FA3400C44FEA /* MCLTrackStore.m */; };
+		83F73FB91782FA3400C44FEA /* MCLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F73FA41782FA3400C44FEA /* MCLViewController.m */; };
+		83F73FBA1782FA3400C44FEA /* MCLVisit.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F73FA61782FA3400C44FEA /* MCLVisit.m */; };
+		83F73FBB1782FA3400C44FEA /* MCLVisitStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F73FA81782FA3400C44FEA /* MCLVisitStore.m */; };
+		83F73FBD1782FA3400C44FEA /* MyCoreLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F73FAC1782FA3400C44FEA /* MyCoreLocationController.m */; };
+		83F73FBF1782FE2B00C44FEA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F73FBE1782FE2B00C44FEA /* CoreLocation.framework */; };
+		83F73FC11782FE3500C44FEA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F73FC01782FE3500C44FEA /* MapKit.framework */; };
+		83F8ED4F1771E63F004DBECC /* SDCGlucosePercent.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F8ED4E1771E63F004DBECC /* SDCGlucosePercent.m */; };
+		83F96BBF174E3CDF007A1709 /* elements.txt in Resources */ = {isa = PBXBuildFile; fileRef = 83F96BBE174E3CDF007A1709 /* elements.txt */; };
+		9B09AD2316AD956F00AF7251 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B09AD2216AD956F00AF7251 /* UIKit.framework */; };
+		9B09AD2516AD956F00AF7251 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B09AD2416AD956F00AF7251 /* Foundation.framework */; };
+		9B09AD2716AD956F00AF7251 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B09AD2616AD956F00AF7251 /* CoreGraphics.framework */; };
+		9B09AD2D16AD957000AF7251 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B09AD2B16AD957000AF7251 /* InfoPlist.strings */; };
+		9B09AD2F16AD957000AF7251 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B09AD2E16AD957000AF7251 /* main.m */; };
+		9B09AD3316AD957000AF7251 /* SDCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B09AD3216AD957000AF7251 /* SDCAppDelegate.m */; };
+		9B09AD3D16AD957000AF7251 /* SDCGlucoseRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B09AD3C16AD957000AF7251 /* SDCGlucoseRegisterVC.m */; };
+		9B09AD4716AD957000AF7251 /* SDCGlucoseRegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B09AD4516AD957000AF7251 /* SDCGlucoseRegisterVC.xib */; };
+		9B09AD5616AEB12F00AF7251 /* SDCGlucoseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B09AD5516AEB12F00AF7251 /* SDCGlucoseView.m */; };
+		9B09AD6716AEBE7F00AF7251 /* SDCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B09AD6616AEBE7F00AF7251 /* SDCConstants.m */; };
+		9B09AD6916B0C78500AF7251 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B09AD6816B0C78500AF7251 /* QuartzCore.framework */; };
+		9B09AD7316BA87A400AF7251 /* SDCPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B09AD7216BA87A200AF7251 /* SDCPointView.m */; };
+		9B54AEFE16BBD6A500D0A710 /* SDCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B54AEFC16BBD6A500D0A710 /* SDCDetailViewController.m */; };
+		9B54AEFF16BBD6A500D0A710 /* SDCDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B54AEFD16BBD6A500D0A710 /* SDCDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83017600177AE6EB00C2684B /* SDCGlucoseScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCGlucoseScroll.h; sourceTree = "<group>"; };
+		83017601177AE6EB00C2684B /* SDCGlucoseScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCGlucoseScroll.m; sourceTree = "<group>"; };
+		8308E39A1741101300E2CBF8 /* SDCInsulinMeasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCInsulinMeasure.h; sourceTree = "<group>"; };
+		8308E39B1741101300E2CBF8 /* SDCInsulinMeasure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCInsulinMeasure.m; sourceTree = "<group>"; };
+		8308E39C1741101300E2CBF8 /* SDCSportMeasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCSportMeasure.h; sourceTree = "<group>"; };
+		8308E39D1741101400E2CBF8 /* SDCSportMeasure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCSportMeasure.m; sourceTree = "<group>"; };
+		8312F26D174D021500711900 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		8312F26E174D021500711900 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		8312F26F174D021500711900 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		8312F270174D021500711900 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		8312F271174D021500711900 /* LineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineLayout.h; sourceTree = "<group>"; };
+		8312F272174D021500711900 /* LineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineLayout.m; sourceTree = "<group>"; };
+		83362DBA177994E8004212D9 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar.png; path = "Smart Diabetes Control/calendar.png"; sourceTree = "<group>"; };
+		833CC33317301C8E00679CF3 /* SDCLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCLoginVC.h; sourceTree = "<group>"; };
+		833CC33417301C8E00679CF3 /* SDCLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCLoginVC.m; sourceTree = "<group>"; };
+		833CC339173029A400679CF3 /* SDCLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCLoginVC.xib; sourceTree = "<group>"; };
+		834CC4F9173D417E0032DF89 /* SDCGlucoseMeasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCGlucoseMeasure.h; sourceTree = "<group>"; };
+		834CC4FA173D417E0032DF89 /* SDCGlucoseMeasure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCGlucoseMeasure.m; sourceTree = "<group>"; };
+		834CC4FC173D4BA60032DF89 /* SDCMeasureStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCMeasureStore.h; sourceTree = "<group>"; };
+		834CC4FD173D4BA60032DF89 /* SDCMeasureStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCMeasureStore.m; sourceTree = "<group>"; };
+		834D64A5173949870094BE43 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		835677E4178D531A0039E6D1 /* SDCEventsVC_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCEventsVC_iPhone5.xib; sourceTree = "<group>"; };
+		835677E6178D533C0039E6D1 /* SDCGlucoseRegisterVC_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCGlucoseRegisterVC_iPhone5.xib; sourceTree = "<group>"; };
+		835677E7178D533C0039E6D1 /* SDCDetailViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCDetailViewController_iPhone5.xib; sourceTree = "<group>"; };
+		835677E8178D533C0039E6D1 /* SDCRegisterDatesVC3_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCRegisterDatesVC3_iPhone5.xib; sourceTree = "<group>"; };
+		835677EC178D53660039E6D1 /* SDCSetMealVC_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCSetMealVC_iPhone5.xib; sourceTree = "<group>"; };
+		835677EE178D54790039E6D1 /* MealDetailVC_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MealDetailVC_iPhone5.xib; sourceTree = "<group>"; };
+		835677EF178D54790039E6D1 /* SDCMealExtraDetailsVC_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCMealExtraDetailsVC_iPhone5.xib; sourceTree = "<group>"; };
+		835677F2178D54F00039E6D1 /* SDCSetInsulinVC_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCSetInsulinVC_iPhone5.xib; sourceTree = "<group>"; };
+		835677F4178D55100039E6D1 /* SDCSetSportVC_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCSetSportVC_iPhone5.xib; sourceTree = "<group>"; };
+		835677F5178D55100039E6D1 /* SDCSportDatesVC_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCSportDatesVC_iPhone5.xib; sourceTree = "<group>"; };
+		835677F8178D55500039E6D1 /* SportDetailVC_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SportDetailVC_iPhone5.xib; sourceTree = "<group>"; };
+		835677FA178D55730039E6D1 /* SDCSetGlucoseVC_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCSetGlucoseVC_iPhone5.xib; sourceTree = "<group>"; };
+		835677FC178D55A10039E6D1 /* SDCLoginVC_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCLoginVC_iPhone5.xib; sourceTree = "<group>"; };
+		835677FE178D55BB0039E6D1 /* SDCSettingsVC_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCSettingsVC_iPhone5.xib; sourceTree = "<group>"; };
+		835DF95D17745A1300008B0C /* SDCRegisterDatesVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCRegisterDatesVC3.h; sourceTree = "<group>"; };
+		835DF95E17745A1300008B0C /* SDCRegisterDatesVC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCRegisterDatesVC3.m; sourceTree = "<group>"; };
+		835DF95F17745A1300008B0C /* SDCRegisterDatesVC3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCRegisterDatesVC3.xib; sourceTree = "<group>"; };
+		83A47FF4173266D400BBE945 /* SDCSetInformationMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCSetInformationMenuVC.h; sourceTree = "<group>"; };
+		83A47FF5173266D400BBE945 /* SDCSetInformationMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCSetInformationMenuVC.m; sourceTree = "<group>"; };
+		83A47FF6173266D400BBE945 /* SDCSetInformationMenuVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCSetInformationMenuVC.xib; sourceTree = "<group>"; };
+		83A47FFB173267BA00BBE945 /* SDCSetGlucoseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCSetGlucoseVC.h; sourceTree = "<group>"; };
+		83A47FFC173267BA00BBE945 /* SDCSetGlucoseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCSetGlucoseVC.m; sourceTree = "<group>"; };
+		83A47FFD173267BA00BBE945 /* SDCSetGlucoseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCSetGlucoseVC.xib; sourceTree = "<group>"; };
+		83A48001173267F500BBE945 /* SDCSetSportVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCSetSportVC.h; sourceTree = "<group>"; };
+		83A48002173267F500BBE945 /* SDCSetSportVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCSetSportVC.m; sourceTree = "<group>"; };
+		83A48003173267F500BBE945 /* SDCSetInsulinVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCSetInsulinVC.xib; sourceTree = "<group>"; };
+		83A480071732683400BBE945 /* SDCSetInsulinVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCSetInsulinVC.h; sourceTree = "<group>"; };
+		83A480081732683400BBE945 /* SDCSetInsulinVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCSetInsulinVC.m; sourceTree = "<group>"; };
+		83A480091732683400BBE945 /* SDCSetSportVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCSetSportVC.xib; sourceTree = "<group>"; };
+		83A480131732698300BBE945 /* SDCSettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCSettingsVC.h; sourceTree = "<group>"; };
+		83A480141732698300BBE945 /* SDCSettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCSettingsVC.m; sourceTree = "<group>"; };
+		83A480151732698300BBE945 /* SDCSettingsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCSettingsVC.xib; sourceTree = "<group>"; };
+		83A48019173269BA00BBE945 /* SDCSocialDiabetesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCSocialDiabetesVC.h; sourceTree = "<group>"; };
+		83A4801A173269BA00BBE945 /* SDCSocialDiabetesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCSocialDiabetesVC.m; sourceTree = "<group>"; };
+		83A4801B173269BA00BBE945 /* SDCSocialDiabetesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCSocialDiabetesVC.xib; sourceTree = "<group>"; };
+		83A4801F173269F600BBE945 /* SDCMyProblemsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCMyProblemsVC.h; sourceTree = "<group>"; };
+		83A48020173269F600BBE945 /* SDCMyProblemsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCMyProblemsVC.m; sourceTree = "<group>"; };
+		83A48021173269F600BBE945 /* SDCMyProblemsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCMyProblemsVC.xib; sourceTree = "<group>"; };
+		83C4DE7E172A93CA00B3899E /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		83C4DE81172A93F300B3899E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		83C4DE82172A93F300B3899E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		83C4DE83172A93F300B3899E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		83C4DE87172A948400B3899E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		83CEB785176B0FE400774DBF /* SDCEllipse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCEllipse.h; sourceTree = "<group>"; };
+		83CEB786176B0FE400774DBF /* SDCEllipse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCEllipse.m; sourceTree = "<group>"; };
+		83CEB788176B411D00774DBF /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		83D677511743BBCE001ED18A /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		83D677521743BBCE001ED18A /* SDCSportImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCSportImageVC.h; sourceTree = "<group>"; };
+		83D677531743BBCE001ED18A /* SDCSportImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCSportImageVC.m; sourceTree = "<group>"; };
+		83D677541743BBCE001ED18A /* SDCSportImageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCSportImageVC.xib; sourceTree = "<group>"; };
+		83D677551743BBCE001ED18A /* SportCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportCell.h; sourceTree = "<group>"; };
+		83D677561743BBCE001ED18A /* SportCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportCell.m; sourceTree = "<group>"; };
+		83D677571743BBCE001ED18A /* SportCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SportCell.xib; sourceTree = "<group>"; };
+		83D677581743BBCE001ED18A /* SportDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportDetailVC.h; sourceTree = "<group>"; };
+		83D677591743BBCE001ED18A /* SportDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportDetailVC.m; sourceTree = "<group>"; };
+		83D6775A1743BBCE001ED18A /* SportDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SportDetailVC.xib; sourceTree = "<group>"; };
+		83D6775B1743BBCE001ED18A /* SportsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportsVC.h; sourceTree = "<group>"; };
+		83D6775C1743BBCE001ED18A /* SportsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportsVC.m; sourceTree = "<group>"; };
+		83D6775D1743BBCE001ED18A /* SDCImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCImageStore.h; sourceTree = "<group>"; };
+		83D6775E1743BBCE001ED18A /* SDCImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCImageStore.m; sourceTree = "<group>"; };
+		83D6775F1743BBCE001ED18A /* SDCSport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCSport.h; sourceTree = "<group>"; };
+		83D677601743BBCE001ED18A /* SDCSport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCSport.m; sourceTree = "<group>"; };
+		83D677611743BBCE001ED18A /* SDCSportStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCSportStore.h; sourceTree = "<group>"; };
+		83D677621743BBCE001ED18A /* SDCSportStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCSportStore.m; sourceTree = "<group>"; };
+		83D7DC05175740D500925678 /* MealCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MealCell.h; path = "Set meal/MealCell.h"; sourceTree = "<group>"; };
+		83D7DC06175740D500925678 /* MealCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MealCell.m; path = "Set meal/MealCell.m"; sourceTree = "<group>"; };
+		83D7DC07175740D500925678 /* MealCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MealCell.xib; path = "Set meal/MealCell.xib"; sourceTree = "<group>"; };
+		83D7DC08175740D500925678 /* MealDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MealDetailVC.h; path = "Set meal/MealDetailVC.h"; sourceTree = "<group>"; };
+		83D7DC09175740D500925678 /* MealDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MealDetailVC.m; path = "Set meal/MealDetailVC.m"; sourceTree = "<group>"; };
+		83D7DC0A175740D500925678 /* MealDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MealDetailVC.xib; path = "Set meal/MealDetailVC.xib"; sourceTree = "<group>"; };
+		83D7DC0B175740D500925678 /* MealsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MealsVC.h; path = "Set meal/MealsVC.h"; sourceTree = "<group>"; };
+		83D7DC0C175740D500925678 /* MealsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MealsVC.m; path = "Set meal/MealsVC.m"; sourceTree = "<group>"; };
+		83D7DC0D175740D500925678 /* SDCMeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDCMeal.h; path = "Set meal/SDCMeal.h"; sourceTree = "<group>"; };
+		83D7DC0E175740D500925678 /* SDCMeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDCMeal.m; path = "Set meal/SDCMeal.m"; sourceTree = "<group>"; };
+		83D7DC0F175740D500925678 /* SDCMealExtraDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDCMealExtraDetailsVC.h; path = "Set meal/SDCMealExtraDetailsVC.h"; sourceTree = "<group>"; };
+		83D7DC10175740D500925678 /* SDCMealExtraDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDCMealExtraDetailsVC.m; path = "Set meal/SDCMealExtraDetailsVC.m"; sourceTree = "<group>"; };
+		83D7DC11175740D500925678 /* SDCMealExtraDetailsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SDCMealExtraDetailsVC.xib; path = "Set meal/SDCMealExtraDetailsVC.xib"; sourceTree = "<group>"; };
+		83D7DC12175740D500925678 /* SDCMealMeasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDCMealMeasure.h; path = "Set meal/SDCMealMeasure.h"; sourceTree = "<group>"; };
+		83D7DC13175740D500925678 /* SDCMealMeasure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDCMealMeasure.m; path = "Set meal/SDCMealMeasure.m"; sourceTree = "<group>"; };
+		83D7DC14175740D500925678 /* SDCMealStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDCMealStore.h; path = "Set meal/SDCMealStore.h"; sourceTree = "<group>"; };
+		83D7DC15175740D500925678 /* SDCMealStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDCMealStore.m; path = "Set meal/SDCMealStore.m"; sourceTree = "<group>"; };
+		83D7DC16175740D500925678 /* SDCSetMealVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDCSetMealVC.h; path = "Set meal/SDCSetMealVC.h"; sourceTree = "<group>"; };
+		83D7DC17175740D500925678 /* SDCSetMealVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDCSetMealVC.m; path = "Set meal/SDCSetMealVC.m"; sourceTree = "<group>"; };
+		83D7DC18175740D500925678 /* SDCSetMealVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SDCSetMealVC.xib; path = "Set meal/SDCSetMealVC.xib"; sourceTree = "<group>"; };
+		83D7DC271757417100925678 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HeaderView.xib; path = "Set meal/HeaderView.xib"; sourceTree = "<group>"; };
+		83D7DC281757417100925678 /* SDCMealImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDCMealImageVC.h; path = "Set meal/SDCMealImageVC.h"; sourceTree = "<group>"; };
+		83D7DC291757417100925678 /* SDCMealImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDCMealImageVC.m; path = "Set meal/SDCMealImageVC.m"; sourceTree = "<group>"; };
+		83D7DC2A1757417100925678 /* SDCMealImageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SDCMealImageVC.xib; path = "Set meal/SDCMealImageVC.xib"; sourceTree = "<group>"; };
+		83DA8F021785BA5000F632CD /* SDCEventsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCEventsVC.h; sourceTree = "<group>"; };
+		83DA8F031785BA5000F632CD /* SDCEventsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCEventsVC.m; sourceTree = "<group>"; };
+		83DA8F041785BA5000F632CD /* SDCEventsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCEventsVC.xib; sourceTree = "<group>"; };
+		83E5C79417842DA900340882 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		83E5C79617842DB300340882 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKResources.bundle; path = ../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		83EBAB7A17561598004093A9 /* SDCSportDatesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCSportDatesVC.h; sourceTree = "<group>"; };
+		83EBAB7B17561598004093A9 /* SDCSportDatesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCSportDatesVC.m; sourceTree = "<group>"; };
+		83EBAB7C17561598004093A9 /* SDCSportDatesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCSportDatesVC.xib; sourceTree = "<group>"; };
+		83F73F8A1782FA3400C44FEA /* CLLocation+measuring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+measuring.h"; sourceTree = "<group>"; };
+		83F73F8B1782FA3400C44FEA /* CLLocation+measuring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+measuring.m"; sourceTree = "<group>"; };
+		83F73F8C1782FA3400C44FEA /* CLLocation+routeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+routeInfo.h"; sourceTree = "<group>"; };
+		83F73F8D1782FA3400C44FEA /* CLLocation+routeInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+routeInfo.m"; sourceTree = "<group>"; };
+		83F73F8E1782FA3400C44FEA /* CLLocationDeadReckoning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLocationDeadReckoning.h; sourceTree = "<group>"; };
+		83F73F8F1782FA3400C44FEA /* CLLocationDeadReckoning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLocationDeadReckoning.m; sourceTree = "<group>"; };
+		83F73F901782FA3400C44FEA /* CLLocationDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLocationDispatch.h; sourceTree = "<group>"; };
+		83F73F911782FA3400C44FEA /* CLLocationDispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLocationDispatch.m; sourceTree = "<group>"; };
+		83F73F921782FA3400C44FEA /* CLUtilsDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLUtilsDefines.h; sourceTree = "<group>"; };
+		83F73F951782FA3400C44FEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		83F73F971782FA3400C44FEA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MCLViewController.xib; sourceTree = "<group>"; };
+		83F73F9B1782FA3400C44FEA /* MCLPOI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCLPOI.h; path = "Smart Diabetes Control/MyCoreLocation/MCLPOI.h"; sourceTree = "<group>"; };
+		83F73F9C1782FA3400C44FEA /* MCLPOI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCLPOI.m; path = "Smart Diabetes Control/MyCoreLocation/MCLPOI.m"; sourceTree = "<group>"; };
+		83F73F9D1782FA3400C44FEA /* MCLPOIStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCLPOIStore.h; path = "Smart Diabetes Control/MyCoreLocation/MCLPOIStore.h"; sourceTree = "<group>"; };
+		83F73F9E1782FA3400C44FEA /* MCLPOIStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCLPOIStore.m; path = "Smart Diabetes Control/MyCoreLocation/MCLPOIStore.m"; sourceTree = "<group>"; };
+		83F73F9F1782FA3400C44FEA /* MCLTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCLTrack.h; path = "Smart Diabetes Control/MyCoreLocation/MCLTrack.h"; sourceTree = "<group>"; };
+		83F73FA01782FA3400C44FEA /* MCLTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCLTrack.m; path = "Smart Diabetes Control/MyCoreLocation/MCLTrack.m"; sourceTree = "<group>"; };
+		83F73FA11782FA3400C44FEA /* MCLTrackStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCLTrackStore.h; path = "Smart Diabetes Control/MyCoreLocation/MCLTrackStore.h"; sourceTree = "<group>"; };
+		83F73FA21782FA3400C44FEA /* MCLTrackStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCLTrackStore.m; path = "Smart Diabetes Control/MyCoreLocation/MCLTrackStore.m"; sourceTree = "<group>"; };
+		83F73FA31782FA3400C44FEA /* MCLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCLViewController.h; path = "Smart Diabetes Control/MyCoreLocation/MCLViewController.h"; sourceTree = "<group>"; };
+		83F73FA41782FA3400C44FEA /* MCLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCLViewController.m; path = "Smart Diabetes Control/MyCoreLocation/MCLViewController.m"; sourceTree = "<group>"; };
+		83F73FA51782FA3400C44FEA /* MCLVisit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCLVisit.h; path = "Smart Diabetes Control/MyCoreLocation/MCLVisit.h"; sourceTree = "<group>"; };
+		83F73FA61782FA3400C44FEA /* MCLVisit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCLVisit.m; path = "Smart Diabetes Control/MyCoreLocation/MCLVisit.m"; sourceTree = "<group>"; };
+		83F73FA71782FA3400C44FEA /* MCLVisitStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCLVisitStore.h; path = "Smart Diabetes Control/MyCoreLocation/MCLVisitStore.h"; sourceTree = "<group>"; };
+		83F73FA81782FA3400C44FEA /* MCLVisitStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCLVisitStore.m; path = "Smart Diabetes Control/MyCoreLocation/MCLVisitStore.m"; sourceTree = "<group>"; };
+		83F73FAB1782FA3400C44FEA /* MyCoreLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCoreLocationController.h; path = "Smart Diabetes Control/MyCoreLocation/MyCoreLocationController.h"; sourceTree = "<group>"; };
+		83F73FAC1782FA3400C44FEA /* MyCoreLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCoreLocationController.m; path = "Smart Diabetes Control/MyCoreLocation/MyCoreLocationController.m"; sourceTree = "<group>"; };
+		83F73FBE1782FE2B00C44FEA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		83F73FC01782FE3500C44FEA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		83F8ED4D1771E63F004DBECC /* SDCGlucosePercent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCGlucosePercent.h; sourceTree = "<group>"; };
+		83F8ED4E1771E63F004DBECC /* SDCGlucosePercent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCGlucosePercent.m; sourceTree = "<group>"; };
+		83F96BBE174E3CDF007A1709 /* elements.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = elements.txt; sourceTree = "<group>"; };
+		9B09AD1E16AD956F00AF7251 /* Smart Diabetes Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Diabetes Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B09AD2216AD956F00AF7251 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B09AD2416AD956F00AF7251 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B09AD2616AD956F00AF7251 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B09AD2A16AD957000AF7251 /* Smart Diabetes Control-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Smart Diabetes Control-Info.plist"; sourceTree = "<group>"; };
+		9B09AD2C16AD957000AF7251 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B09AD2E16AD957000AF7251 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B09AD3016AD957000AF7251 /* Smart Diabetes Control-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smart Diabetes Control-Prefix.pch"; sourceTree = "<group>"; };
+		9B09AD3116AD957000AF7251 /* SDCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDCAppDelegate.h; sourceTree = "<group>"; };
+		9B09AD3216AD957000AF7251 /* SDCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDCAppDelegate.m; sourceTree = "<group>"; };
+		9B09AD3B16AD957000AF7251 /* SDCGlucoseRegisterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDCGlucoseRegisterVC.h; sourceTree = "<group>"; };
+		9B09AD3C16AD957000AF7251 /* SDCGlucoseRegisterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDCGlucoseRegisterVC.m; sourceTree = "<group>"; };
+		9B09AD4616AD957000AF7251 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SDCGlucoseRegisterVC.xib; sourceTree = "<group>"; };
+		9B09AD5416AEB12F00AF7251 /* SDCGlucoseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCGlucoseView.h; sourceTree = "<group>"; };
+		9B09AD5516AEB12F00AF7251 /* SDCGlucoseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCGlucoseView.m; sourceTree = "<group>"; };
+		9B09AD6516AEBE7F00AF7251 /* SDCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCConstants.h; sourceTree = "<group>"; };
+		9B09AD6616AEBE7F00AF7251 /* SDCConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCConstants.m; sourceTree = "<group>"; };
+		9B09AD6816B0C78500AF7251 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9B09AD7116BA87A200AF7251 /* SDCPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCPointView.h; sourceTree = "<group>"; };
+		9B09AD7216BA87A200AF7251 /* SDCPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCPointView.m; sourceTree = "<group>"; };
+		9B54AEFB16BBD6A400D0A710 /* SDCDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCDetailViewController.h; sourceTree = "<group>"; };
+		9B54AEFC16BBD6A500D0A710 /* SDCDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCDetailViewController.m; sourceTree = "<group>"; };
+		9B54AEFD16BBD6A500D0A710 /* SDCDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B09AD1B16AD956F00AF7251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F73FC11782FE3500C44FEA /* MapKit.framework in Frameworks */,
+				83F73FBF1782FE2B00C44FEA /* CoreLocation.framework in Frameworks */,
+				83CEB789176B411D00774DBF /* Accelerate.framework in Frameworks */,
+				83C4DE88172A948400B3899E /* libsqlite3.dylib in Frameworks */,
+				83C4DE84172A93F300B3899E /* AdSupport.framework in Frameworks */,
+				83C4DE85172A93F300B3899E /* Security.framework in Frameworks */,
+				83C4DE86172A93F300B3899E /* Social.framework in Frameworks */,
+				83C4DE80172A93F300B3899E /* Accounts.framework in Frameworks */,
+				9B09AD6916B0C78500AF7251 /* QuartzCore.framework in Frameworks */,
+				9B09AD2316AD956F00AF7251 /* UIKit.framework in Frameworks */,
+				9B09AD2516AD956F00AF7251 /* Foundation.framework in Frameworks */,
+				9B09AD2716AD956F00AF7251 /* CoreGraphics.framework in Frameworks */,
+				83E5C79517842DA900340882 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8312F26C174D01C500711900 /* Collection View */ = {
+			isa = PBXGroup;
+			children = (
+				8312F26D174D021500711900 /* CollectionViewController.h */,
+				8312F26E174D021500711900 /* CollectionViewController.m */,
+				8312F26F174D021500711900 /* CustomCell.h */,
+				8312F270174D021500711900 /* CustomCell.m */,
+				8312F271174D021500711900 /* LineLayout.h */,
+				8312F272174D021500711900 /* LineLayout.m */,
+			);
+			name = "Collection View";
+			sourceTree = "<group>";
+		};
+		832D0AE617535EE2001C53B0 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				835677F8178D55500039E6D1 /* SportDetailVC_iPhone5.xib */,
+				83D677581743BBCE001ED18A /* SportDetailVC.h */,
+				83D677591743BBCE001ED18A /* SportDetailVC.m */,
+				83D6775A1743BBCE001ED18A /* SportDetailVC.xib */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
+		832D0AEF175370C4001C53B0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8308E39C1741101300E2CBF8 /* SDCSportMeasure.h */,
+				8308E39D1741101400E2CBF8 /* SDCSportMeasure.m */,
+				83D6775F1743BBCE001ED18A /* SDCSport.h */,
+				83D677601743BBCE001ED18A /* SDCSport.m */,
+				83D677611743BBCE001ED18A /* SDCSportStore.h */,
+				83D677621743BBCE001ED18A /* SDCSportStore.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		833CC33817301D5500679CF3 /* Session Register */ = {
+			isa = PBXGroup;
+			children = (
+				835677FC178D55A10039E6D1 /* SDCLoginVC_iPhone5.xib */,
+				833CC339173029A400679CF3 /* SDCLoginVC.xib */,
+				833CC33317301C8E00679CF3 /* SDCLoginVC.h */,
+				833CC33417301C8E00679CF3 /* SDCLoginVC.m */,
+			);
+			name = "Session Register";
+			sourceTree = "<group>";
+		};
+		83A47FF117325B9D00BBE945 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				83A47FF4173266D400BBE945 /* SDCSetInformationMenuVC.h */,
+				83A47FF5173266D400BBE945 /* SDCSetInformationMenuVC.m */,
+				83A47FF6173266D400BBE945 /* SDCSetInformationMenuVC.xib */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		83A47FF91732674800BBE945 /* Set Information */ = {
+			isa = PBXGroup;
+			children = (
+				8312F26C174D01C500711900 /* Collection View */,
+				83D6775D1743BBCE001ED18A /* SDCImageStore.h */,
+				83D6775E1743BBCE001ED18A /* SDCImageStore.m */,
+				834CC4FC173D4BA60032DF89 /* SDCMeasureStore.h */,
+				834CC4FD173D4BA60032DF89 /* SDCMeasureStore.m */,
+				83D7DC031757403C00925678 /* Set Meal */,
+				83A480061732680400BBE945 /* Set Insulin */,
+				83A48000173267C400BBE945 /* Set Sport */,
+				83A47FFA1732679800BBE945 /* Set Glucose */,
+				83A47FF117325B9D00BBE945 /* Menu */,
+			);
+			name = "Set Information";
+			sourceTree = "<group>";
+		};
+		83A47FFA1732679800BBE945 /* Set Glucose */ = {
+			isa = PBXGroup;
+			children = (
+				835677FA178D55730039E6D1 /* SDCSetGlucoseVC_iPhone5.xib */,
+				834CC4F9173D417E0032DF89 /* SDCGlucoseMeasure.h */,
+				834CC4FA173D417E0032DF89 /* SDCGlucoseMeasure.m */,
+				83A47FFB173267BA00BBE945 /* SDCSetGlucoseVC.h */,
+				83A47FFC173267BA00BBE945 /* SDCSetGlucoseVC.m */,
+				83A47FFD173267BA00BBE945 /* SDCSetGlucoseVC.xib */,
+			);
+			name = "Set Glucose";
+			sourceTree = "<group>";
+		};
+		83A48000173267C400BBE945 /* Set Sport */ = {
+			isa = PBXGroup;
+			children = (
+				835677F4178D55100039E6D1 /* SDCSetSportVC_iPhone5.xib */,
+				835677F5178D55100039E6D1 /* SDCSportDatesVC_iPhone5.xib */,
+				83A480091732683400BBE945 /* SDCSetSportVC.xib */,
+				83A48001173267F500BBE945 /* SDCSetSportVC.h */,
+				83A48002173267F500BBE945 /* SDCSetSportVC.m */,
+				83EBAB7A17561598004093A9 /* SDCSportDatesVC.h */,
+				83EBAB7B17561598004093A9 /* SDCSportDatesVC.m */,
+				83EBAB7C17561598004093A9 /* SDCSportDatesVC.xib */,
+				832D0AEF175370C4001C53B0 /* Data */,
+				832D0AE617535EE2001C53B0 /* Details */,
+				83D6774F1743BB72001ED18A /* Sport List */,
+			);
+			name = "Set Sport";
+			sourceTree = "<group>";
+		};
+		83A480061732680400BBE945 /* Set Insulin */ = {
+			isa = PBXGroup;
+			children = (
+				8308E39A1741101300E2CBF8 /* SDCInsulinMeasure.h */,
+				8308E39B1741101300E2CBF8 /* SDCInsulinMeasure.m */,
+				83A480071732683400BBE945 /* SDCSetInsulinVC.h */,
+				83A480081732683400BBE945 /* SDCSetInsulinVC.m */,
+				835677F2178D54F00039E6D1 /* SDCSetInsulinVC_iPhone5.xib */,
+				83A48003173267F500BBE945 /* SDCSetInsulinVC.xib */,
+			);
+			name = "Set Insulin";
+			sourceTree = "<group>";
+		};
+		83A480121732696200BBE945 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				83A480131732698300BBE945 /* SDCSettingsVC.h */,
+				83A480141732698300BBE945 /* SDCSettingsVC.m */,
+				835677FE178D55BB0039E6D1 /* SDCSettingsVC_iPhone5.xib */,
+				83A480151732698300BBE945 /* SDCSettingsVC.xib */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		83A48018173269A300BBE945 /* Social Diabetes */ = {
+			isa = PBXGroup;
+			children = (
+				83A48019173269BA00BBE945 /* SDCSocialDiabetesVC.h */,
+				83A4801A173269BA00BBE945 /* SDCSocialDiabetesVC.m */,
+				83A4801B173269BA00BBE945 /* SDCSocialDiabetesVC.xib */,
+			);
+			name = "Social Diabetes";
+			sourceTree = "<group>";
+		};
+		83A4801E173269BF00BBE945 /* My problems */ = {
+			isa = PBXGroup;
+			children = (
+				83A4801F173269F600BBE945 /* SDCMyProblemsVC.h */,
+				83A48020173269F600BBE945 /* SDCMyProblemsVC.m */,
+				83A48021173269F600BBE945 /* SDCMyProblemsVC.xib */,
+			);
+			name = "My problems";
+			sourceTree = "<group>";
+		};
+		83D6774F1743BB72001ED18A /* Sport List */ = {
+			isa = PBXGroup;
+			children = (
+				83D677511743BBCE001ED18A /* HeaderView.xib */,
+				83D677521743BBCE001ED18A /* SDCSportImageVC.h */,
+				83D677531743BBCE001ED18A /* SDCSportImageVC.m */,
+				83D677541743BBCE001ED18A /* SDCSportImageVC.xib */,
+				83D677551743BBCE001ED18A /* SportCell.h */,
+				83D677561743BBCE001ED18A /* SportCell.m */,
+				83D677571743BBCE001ED18A /* SportCell.xib */,
+				83D6775B1743BBCE001ED18A /* SportsVC.h */,
+				83D6775C1743BBCE001ED18A /* SportsVC.m */,
+			);
+			name = "Sport List";
+			sourceTree = "<group>";
+		};
+		83D7DC031757403C00925678 /* Set Meal */ = {
+			isa = PBXGroup;
+			children = (
+				83D7DC16175740D500925678 /* SDCSetMealVC.h */,
+				83D7DC17175740D500925678 /* SDCSetMealVC.m */,
+				835677EC178D53660039E6D1 /* SDCSetMealVC_iPhone5.xib */,
+				83D7DC18175740D500925678 /* SDCSetMealVC.xib */,
+				83D7DC2E1757418200925678 /* Details */,
+				83D7DC261757410800925678 /* List */,
+				83D7DC25175740DF00925678 /* Data */,
+			);
+			name = "Set Meal";
+			sourceTree = "<group>";
+		};
+		83D7DC25175740DF00925678 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				83D7DC0D175740D500925678 /* SDCMeal.h */,
+				83D7DC0E175740D500925678 /* SDCMeal.m */,
+				83D7DC14175740D500925678 /* SDCMealStore.h */,
+				83D7DC15175740D500925678 /* SDCMealStore.m */,
+				83D7DC12175740D500925678 /* SDCMealMeasure.h */,
+				83D7DC13175740D500925678 /* SDCMealMeasure.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		83D7DC261757410800925678 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				83D7DC271757417100925678 /* HeaderView.xib */,
+				83D7DC281757417100925678 /* SDCMealImageVC.h */,
+				83D7DC291757417100925678 /* SDCMealImageVC.m */,
+				83D7DC2A1757417100925678 /* SDCMealImageVC.xib */,
+				83D7DC05175740D500925678 /* MealCell.h */,
+				83D7DC06175740D500925678 /* MealCell.m */,
+				83D7DC07175740D500925678 /* MealCell.xib */,
+				83D7DC0B175740D500925678 /* MealsVC.h */,
+				83D7DC0C175740D500925678 /* MealsVC.m */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		83D7DC2E1757418200925678 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				83D7DC08175740D500925678 /* MealDetailVC.h */,
+				835677EE178D54790039E6D1 /* MealDetailVC_iPhone5.xib */,
+				835677EF178D54790039E6D1 /* SDCMealExtraDetailsVC_iPhone5.xib */,
+				83D7DC09175740D500925678 /* MealDetailVC.m */,
+				83D7DC0A175740D500925678 /* MealDetailVC.xib */,
+				83D7DC0F175740D500925678 /* SDCMealExtraDetailsVC.h */,
+				83D7DC10175740D500925678 /* SDCMealExtraDetailsVC.m */,
+				83D7DC11175740D500925678 /* SDCMealExtraDetailsVC.xib */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
+		83DA8F011785ADB700F632CD /* Event Log */ = {
+			isa = PBXGroup;
+			children = (
+				835677E4178D531A0039E6D1 /* SDCEventsVC_iPhone5.xib */,
+				83DA8F021785BA5000F632CD /* SDCEventsVC.h */,
+				83DA8F031785BA5000F632CD /* SDCEventsVC.m */,
+				83DA8F041785BA5000F632CD /* SDCEventsVC.xib */,
+			);
+			name = "Event Log";
+			sourceTree = "<group>";
+		};
+		83F73F881782F81F00C44FEA /* My Core Location */ = {
+			isa = PBXGroup;
+			children = (
+				83F73F891782FA3400C44FEA /* CoreLocationUtils */,
+				83F73F931782FA3400C44FEA /* en.lproj */,
+				83F73F9B1782FA3400C44FEA /* MCLPOI.h */,
+				83F73F9C1782FA3400C44FEA /* MCLPOI.m */,
+				83F73F9D1782FA3400C44FEA /* MCLPOIStore.h */,
+				83F73F9E1782FA3400C44FEA /* MCLPOIStore.m */,
+				83F73F9F1782FA3400C44FEA /* MCLTrack.h */,
+				83F73FA01782FA3400C44FEA /* MCLTrack.m */,
+				83F73FA11782FA3400C44FEA /* MCLTrackStore.h */,
+				83F73FA21782FA3400C44FEA /* MCLTrackStore.m */,
+				83F73FA31782FA3400C44FEA /* MCLViewController.h */,
+				83F73FA41782FA3400C44FEA /* MCLViewController.m */,
+				83F73FA51782FA3400C44FEA /* MCLVisit.h */,
+				83F73FA61782FA3400C44FEA /* MCLVisit.m */,
+				83F73FA71782FA3400C44FEA /* MCLVisitStore.h */,
+				83F73FA81782FA3400C44FEA /* MCLVisitStore.m */,
+				83F73FAB1782FA3400C44FEA /* MyCoreLocationController.h */,
+				83F73FAC1782FA3400C44FEA /* MyCoreLocationController.m */,
+			);
+			name = "My Core Location";
+			sourceTree = "<group>";
+		};
+		83F73F891782FA3400C44FEA /* CoreLocationUtils */ = {
+			isa = PBXGroup;
+			children = (
+				83F73F8A1782FA3400C44FEA /* CLLocation+measuring.h */,
+				83F73F8B1782FA3400C44FEA /* CLLocation+measuring.m */,
+				83F73F8C1782FA3400C44FEA /* CLLocation+routeInfo.h */,
+				83F73F8D1782FA3400C44FEA /* CLLocation+routeInfo.m */,
+				83F73F8E1782FA3400C44FEA /* CLLocationDeadReckoning.h */,
+				83F73F8F1782FA3400C44FEA /* CLLocationDeadReckoning.m */,
+				83F73F901782FA3400C44FEA /* CLLocationDispatch.h */,
+				83F73F911782FA3400C44FEA /* CLLocationDispatch.m */,
+				83F73F921782FA3400C44FEA /* CLUtilsDefines.h */,
+			);
+			name = CoreLocationUtils;
+			path = "Smart Diabetes Control/MyCoreLocation/CoreLocationUtils";
+			sourceTree = "<group>";
+		};
+		83F73F931782FA3400C44FEA /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				83F73F941782FA3400C44FEA /* InfoPlist.strings */,
+				83F73F961782FA3400C44FEA /* MCLViewController.xib */,
+			);
+			name = en.lproj;
+			path = "Smart Diabetes Control/MyCoreLocation/en.lproj";
+			sourceTree = "<group>";
+		};
+		9B09AD1316AD956F00AF7251 = {
+			isa = PBXGroup;
+			children = (
+				83F73FC01782FE3500C44FEA /* MapKit.framework */,
+				83F73FBE1782FE2B00C44FEA /* CoreLocation.framework */,
+				83F73F881782F81F00C44FEA /* My Core Location */,
+				834D64A5173949870094BE43 /* Default-568h@2x.png */,
+				83362DBA177994E8004212D9 /* calendar.png */,
+				9B09AD2816AD956F00AF7251 /* Smart Diabetes Control */,
+				9B09AD2116AD956F00AF7251 /* Frameworks */,
+				9B09AD1F16AD956F00AF7251 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B09AD1F16AD956F00AF7251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B09AD1E16AD956F00AF7251 /* Smart Diabetes Control.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B09AD2116AD956F00AF7251 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83E5C79617842DB300340882 /* FacebookSDKResources.bundle */,
+				83E5C79417842DA900340882 /* FacebookSDK.framework */,
+				83CEB788176B411D00774DBF /* Accelerate.framework */,
+				83C4DE7E172A93CA00B3899E /* Accounts.framework */,
+				83C4DE81172A93F300B3899E /* AdSupport.framework */,
+				9B09AD2616AD956F00AF7251 /* CoreGraphics.framework */,
+				9B09AD2416AD956F00AF7251 /* Foundation.framework */,
+				83C4DE87172A948400B3899E /* libsqlite3.dylib */,
+				9B09AD6816B0C78500AF7251 /* QuartzCore.framework */,
+				83C4DE82172A93F300B3899E /* Security.framework */,
+				83C4DE83172A93F300B3899E /* Social.framework */,
+				9B09AD2216AD956F00AF7251 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B09AD2816AD956F00AF7251 /* Smart Diabetes Control */ = {
+			isa = PBXGroup;
+			children = (
+				9B09AD4E16ADA01C00AF7251 /* Glucose register */,
+				83A47FF91732674800BBE945 /* Set Information */,
+				83A4801E173269BF00BBE945 /* My problems */,
+				83A48018173269A300BBE945 /* Social Diabetes */,
+				83A480121732696200BBE945 /* Configuration */,
+				833CC33817301D5500679CF3 /* Session Register */,
+				83DA8F011785ADB700F632CD /* Event Log */,
+				9B09AD6516AEBE7F00AF7251 /* SDCConstants.h */,
+				9B09AD6616AEBE7F00AF7251 /* SDCConstants.m */,
+				9B09AD3116AD957000AF7251 /* SDCAppDelegate.h */,
+				9B09AD3216AD957000AF7251 /* SDCAppDelegate.m */,
+				9B09AD2916AD957000AF7251 /* Supporting Files */,
+			);
+			path = "Smart Diabetes Control";
+			sourceTree = "<group>";
+		};
+		9B09AD2916AD957000AF7251 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83F96BBE174E3CDF007A1709 /* elements.txt */,
+				9B09AD2A16AD957000AF7251 /* Smart Diabetes Control-Info.plist */,
+				9B09AD2B16AD957000AF7251 /* InfoPlist.strings */,
+				9B09AD2E16AD957000AF7251 /* main.m */,
+				9B09AD3016AD957000AF7251 /* Smart Diabetes Control-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B09AD4E16ADA01C00AF7251 /* Glucose register */ = {
+			isa = PBXGroup;
+			children = (
+				9B54AEFB16BBD6A400D0A710 /* SDCDetailViewController.h */,
+				9B54AEFC16BBD6A500D0A710 /* SDCDetailViewController.m */,
+				9B54AEFD16BBD6A500D0A710 /* SDCDetailViewController.xib */,
+				835677E7178D533C0039E6D1 /* SDCDetailViewController_iPhone5.xib */,
+				83CEB785176B0FE400774DBF /* SDCEllipse.h */,
+				83CEB786176B0FE400774DBF /* SDCEllipse.m */,
+				83F8ED4D1771E63F004DBECC /* SDCGlucosePercent.h */,
+				83F8ED4E1771E63F004DBECC /* SDCGlucosePercent.m */,
+				9B09AD3B16AD957000AF7251 /* SDCGlucoseRegisterVC.h */,
+				9B09AD3C16AD957000AF7251 /* SDCGlucoseRegisterVC.m */,
+				9B09AD4516AD957000AF7251 /* SDCGlucoseRegisterVC.xib */,
+				835677E6178D533C0039E6D1 /* SDCGlucoseRegisterVC_iPhone5.xib */,
+				83017600177AE6EB00C2684B /* SDCGlucoseScroll.h */,
+				83017601177AE6EB00C2684B /* SDCGlucoseScroll.m */,
+				9B09AD5416AEB12F00AF7251 /* SDCGlucoseView.h */,
+				9B09AD5516AEB12F00AF7251 /* SDCGlucoseView.m */,
+				9B09AD7116BA87A200AF7251 /* SDCPointView.h */,
+				9B09AD7216BA87A200AF7251 /* SDCPointView.m */,
+				835DF95D17745A1300008B0C /* SDCRegisterDatesVC3.h */,
+				835DF95E17745A1300008B0C /* SDCRegisterDatesVC3.m */,
+				835DF95F17745A1300008B0C /* SDCRegisterDatesVC3.xib */,
+				835677E8178D533C0039E6D1 /* SDCRegisterDatesVC3_iPhone5.xib */,
+			);
+			name = "Glucose register";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B09AD1D16AD956F00AF7251 /* Smart Diabetes Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B09AD4A16AD957000AF7251 /* Build configuration list for PBXNativeTarget "Smart Diabetes Control" */;
+			buildPhases = (
+				9B09AD1A16AD956F00AF7251 /* Sources */,
+				9B09AD1B16AD956F00AF7251 /* Frameworks */,
+				9B09AD1C16AD956F00AF7251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Diabetes Control";
+			productName = "Smart Diabetes Control";
+			productReference = 9B09AD1E16AD956F00AF7251 /* Smart Diabetes Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B09AD1516AD956F00AF7251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9B09AD1816AD956F00AF7251 /* Build configuration list for PBXProject "Smart Diabetes Control" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				he,
+			);
+			mainGroup = 9B09AD1316AD956F00AF7251;
+			productRefGroup = 9B09AD1F16AD956F00AF7251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B09AD1D16AD956F00AF7251 /* Smart Diabetes Control */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B09AD1C16AD956F00AF7251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B09AD2D16AD957000AF7251 /* InfoPlist.strings in Resources */,
+				9B09AD4716AD957000AF7251 /* SDCGlucoseRegisterVC.xib in Resources */,
+				9B54AEFF16BBD6A500D0A710 /* SDCDetailViewController.xib in Resources */,
+				833CC33A173029A400679CF3 /* SDCLoginVC.xib in Resources */,
+				83A47FF8173266D400BBE945 /* SDCSetInformationMenuVC.xib in Resources */,
+				83A47FFF173267BA00BBE945 /* SDCSetGlucoseVC.xib in Resources */,
+				83A48005173267F500BBE945 /* SDCSetInsulinVC.xib in Resources */,
+				83A4800B1732683400BBE945 /* SDCSetSportVC.xib in Resources */,
+				83A480171732698300BBE945 /* SDCSettingsVC.xib in Resources */,
+				83A4801D173269BA00BBE945 /* SDCSocialDiabetesVC.xib in Resources */,
+				83A48023173269F600BBE945 /* SDCMyProblemsVC.xib in Resources */,
+				834D64A6173949870094BE43 /* Default-568h@2x.png in Resources */,
+				83D677651743BBCE001ED18A /* HeaderView.xib in Resources */,
+				83D677671743BBCE001ED18A /* SDCSportImageVC.xib in Resources */,
+				83D677691743BBCE001ED18A /* SportCell.xib in Resources */,
+				83D6776B1743BBCE001ED18A /* SportDetailVC.xib in Resources */,
+				83F96BBF174E3CDF007A1709 /* elements.txt in Resources */,
+				83EBAB7E17561598004093A9 /* SDCSportDatesVC.xib in Resources */,
+				83D7DC1A175740D500925678 /* MealCell.xib in Resources */,
+				83D7DC1C175740D500925678 /* MealDetailVC.xib in Resources */,
+				83D7DC20175740D500925678 /* SDCMealExtraDetailsVC.xib in Resources */,
+				83D7DC24175740D500925678 /* SDCSetMealVC.xib in Resources */,
+				83D7DC2B1757417100925678 /* HeaderView.xib in Resources */,
+				83D7DC2D1757417100925678 /* SDCMealImageVC.xib in Resources */,
+				835DF96117745A1300008B0C /* SDCRegisterDatesVC3.xib in Resources */,
+				83362DBB177994E8004212D9 /* calendar.png in Resources */,
+				83F73FB11782FA3400C44FEA /* InfoPlist.strings in Resources */,
+				83F73FB21782FA3400C44FEA /* MCLViewController.xib in Resources */,
+				83E5C79717842DB300340882 /* FacebookSDKResources.bundle in Resources */,
+				83DA8F061785BA5000F632CD /* SDCEventsVC.xib in Resources */,
+				835677E5178D531A0039E6D1 /* SDCEventsVC_iPhone5.xib in Resources */,
+				835677E9178D533C0039E6D1 /* SDCGlucoseRegisterVC_iPhone5.xib in Resources */,
+				835677EA178D533C0039E6D1 /* SDCDetailViewController_iPhone5.xib in Resources */,
+				835677EB178D533C0039E6D1 /* SDCRegisterDatesVC3_iPhone5.xib in Resources */,
+				835677ED178D53660039E6D1 /* SDCSetMealVC_iPhone5.xib in Resources */,
+				835677F0178D54790039E6D1 /* MealDetailVC_iPhone5.xib in Resources */,
+				835677F1178D54790039E6D1 /* SDCMealExtraDetailsVC_iPhone5.xib in Resources */,
+				835677F3178D54F00039E6D1 /* SDCSetInsulinVC_iPhone5.xib in Resources */,
+				835677F6178D55100039E6D1 /* SDCSetSportVC_iPhone5.xib in Resources */,
+				835677F7178D55100039E6D1 /* SDCSportDatesVC_iPhone5.xib in Resources */,
+				835677F9178D55500039E6D1 /* SportDetailVC_iPhone5.xib in Resources */,
+				835677FB178D55730039E6D1 /* SDCSetGlucoseVC_iPhone5.xib in Resources */,
+				835677FD178D55A10039E6D1 /* SDCLoginVC_iPhone5.xib in Resources */,
+				835677FF178D55BB0039E6D1 /* SDCSettingsVC_iPhone5.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B09AD1A16AD956F00AF7251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B09AD2F16AD957000AF7251 /* main.m in Sources */,
+				9B09AD3316AD957000AF7251 /* SDCAppDelegate.m in Sources */,
+				9B09AD3D16AD957000AF7251 /* SDCGlucoseRegisterVC.m in Sources */,
+				9B09AD5616AEB12F00AF7251 /* SDCGlucoseView.m in Sources */,
+				9B09AD6716AEBE7F00AF7251 /* SDCConstants.m in Sources */,
+				9B09AD7316BA87A400AF7251 /* SDCPointView.m in Sources */,
+				9B54AEFE16BBD6A500D0A710 /* SDCDetailViewController.m in Sources */,
+				833CC33517301C8E00679CF3 /* SDCLoginVC.m in Sources */,
+				83A47FF7173266D400BBE945 /* SDCSetInformationMenuVC.m in Sources */,
+				83A47FFE173267BA00BBE945 /* SDCSetGlucoseVC.m in Sources */,
+				83A48004173267F500BBE945 /* SDCSetSportVC.m in Sources */,
+				83A4800A1732683400BBE945 /* SDCSetInsulinVC.m in Sources */,
+				83A480161732698300BBE945 /* SDCSettingsVC.m in Sources */,
+				83A4801C173269BA00BBE945 /* SDCSocialDiabetesVC.m in Sources */,
+				83A48022173269F600BBE945 /* SDCMyProblemsVC.m in Sources */,
+				834CC4FB173D417E0032DF89 /* SDCGlucoseMeasure.m in Sources */,
+				834CC4FE173D4BA60032DF89 /* SDCMeasureStore.m in Sources */,
+				8308E39E1741101400E2CBF8 /* SDCInsulinMeasure.m in Sources */,
+				8308E39F1741101400E2CBF8 /* SDCSportMeasure.m in Sources */,
+				83D677661743BBCE001ED18A /* SDCSportImageVC.m in Sources */,
+				83D677681743BBCE001ED18A /* SportCell.m in Sources */,
+				83D6776A1743BBCE001ED18A /* SportDetailVC.m in Sources */,
+				83D6776C1743BBCE001ED18A /* SportsVC.m in Sources */,
+				83D6776D1743BBCE001ED18A /* SDCImageStore.m in Sources */,
+				83D6776E1743BBCE001ED18A /* SDCSport.m in Sources */,
+				83D6776F1743BBCE001ED18A /* SDCSportStore.m in Sources */,
+				8312F273174D021500711900 /* CollectionViewController.m in Sources */,
+				8312F274174D021500711900 /* CustomCell.m in Sources */,
+				8312F275174D021500711900 /* LineLayout.m in Sources */,
+				83EBAB7D17561598004093A9 /* SDCSportDatesVC.m in Sources */,
+				83D7DC19175740D500925678 /* MealCell.m in Sources */,
+				83D7DC1B175740D500925678 /* MealDetailVC.m in Sources */,
+				83D7DC1D175740D500925678 /* MealsVC.m in Sources */,
+				83D7DC1E175740D500925678 /* SDCMeal.m in Sources */,
+				83D7DC1F175740D500925678 /* SDCMealExtraDetailsVC.m in Sources */,
+				83D7DC21175740D500925678 /* SDCMealMeasure.m in Sources */,
+				83D7DC22175740D500925678 /* SDCMealStore.m in Sources */,
+				83D7DC23175740D500925678 /* SDCSetMealVC.m in Sources */,
+				83D7DC2C1757417100925678 /* SDCMealImageVC.m in Sources */,
+				83CEB787176B0FE400774DBF /* SDCEllipse.m in Sources */,
+				83F8ED4F1771E63F004DBECC /* SDCGlucosePercent.m in Sources */,
+				835DF96017745A1300008B0C /* SDCRegisterDatesVC3.m in Sources */,
+				83017602177AE6EB00C2684B /* SDCGlucoseScroll.m in Sources */,
+				83F73FAD1782FA3400C44FEA /* CLLocation+measuring.m in Sources */,
+				83F73FAE1782FA3400C44FEA /* CLLocation+routeInfo.m in Sources */,
+				83F73FAF1782FA3400C44FEA /* CLLocationDeadReckoning.m in Sources */,
+				83F73FB01782FA3400C44FEA /* CLLocationDispatch.m in Sources */,
+				83F73FB51782FA3400C44FEA /* MCLPOI.m in Sources */,
+				83F73FB61782FA3400C44FEA /* MCLPOIStore.m in Sources */,
+				83F73FB71782FA3400C44FEA /* MCLTrack.m in Sources */,
+				83F73FB81782FA3400C44FEA /* MCLTrackStore.m in Sources */,
+				83F73FB91782FA3400C44FEA /* MCLViewController.m in Sources */,
+				83F73FBA1782FA3400C44FEA /* MCLVisit.m in Sources */,
+				83F73FBB1782FA3400C44FEA /* MCLVisitStore.m in Sources */,
+				83F73FBD1782FA3400C44FEA /* MyCoreLocationController.m in Sources */,
+				83DA8F051785BA5000F632CD /* SDCEventsVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83F73F941782FA3400C44FEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F73F951782FA3400C44FEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83F73F961782FA3400C44FEA /* MCLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F73F971782FA3400C44FEA /* en */,
+			);
+			name = MCLViewController.xib;
+			sourceTree = "<group>";
+		};
+		9B09AD2B16AD957000AF7251 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B09AD2C16AD957000AF7251 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B09AD4516AD957000AF7251 /* SDCGlucoseRegisterVC.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B09AD4616AD957000AF7251 /* en */,
+			);
+			name = SDCGlucoseRegisterVC.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B09AD4816AD957000AF7251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B09AD4916AD957000AF7251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B09AD4B16AD957000AF7251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Documents/FacebookSDK\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../Documents/FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smart Diabetes Control/Smart Diabetes Control-Prefix.pch";
+				INFOPLIST_FILE = "Smart Diabetes Control/Smart Diabetes Control-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B09AD4C16AD957000AF7251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Documents/FacebookSDK\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../Documents/FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smart Diabetes Control/Smart Diabetes Control-Prefix.pch";
+				INFOPLIST_FILE = "Smart Diabetes Control/Smart Diabetes Control-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B09AD1816AD956F00AF7251 /* Build configuration list for PBXProject "Smart Diabetes Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B09AD4816AD957000AF7251 /* Debug */,
+				9B09AD4916AD957000AF7251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B09AD4A16AD957000AF7251 /* Build configuration list for PBXNativeTarget "Smart Diabetes Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B09AD4B16AD957000AF7251 /* Debug */,
+				9B09AD4C16AD957000AF7251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B09AD1516AD956F00AF7251 /* Project object */;
+}
